@@ -250,7 +250,7 @@ function App() {
         }}>
           <h2 style={{ fontSize: '4.5rem', marginBottom: '2rem' }}>Eleve sua Infraestrutura.</h2>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem' }}>
-            <a href="https://wa.me/seunumerowhatsapp" className="btn-premium">
+            <a href="https://wa.me/5562981183722?text=Olá, quero saber mais sobre a Solubloc!" className="btn-premium">
               Falar com vendedor <ArrowRight />
             </a>
             <a href={PDF_URL} target="_blank" rel="noopener noreferrer" className="glass-card" style={{ padding: '1.3rem 3rem', borderRadius: '16px', textDecoration: 'none', fontWeight: '700', border: '1px solid var(--border)' }}>
