@@ -1,12 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import {
-  Shield, Zap, Layers, Recycle, ArrowRight, MessageCircle,
-  Box, Construction, CheckCircle2, Ruler, Weight, LayoutPanelLeft,
+  Shield, ArrowRight, MessageCircle,
+  Box, CheckCircle2,
   Anchor, Landmark, Mountain, FileText, AlertTriangle, Settings,
   XCircle
 } from 'lucide-react';
-import './index.css';
 
 const FadeIn = ({ children, delay = 0, className = "" }) => (
   <motion.div
