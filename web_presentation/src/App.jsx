@@ -160,7 +160,7 @@ function App() {
             <img src="engenharia.png" alt="Engenharia Técnica" style={{ height: '100%', objectFit: 'cover' }} />
           </FadeIn>
           <FadeIn>
-            <div className="badge">Engenharia v4</div>
+            <div className="badge">Engenharia</div>
             <h2 style={{ fontSize: '3.5rem', marginBottom: '2rem' }}>Precisão de Encaixe Técnico.</h2>
             <div className="specs-grid">
               <div className="spec-item">
