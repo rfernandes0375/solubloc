@@ -53,7 +53,7 @@ function App() {
       {/* Hero Section */}
       <section className="container" style={{ paddingTop: '220px', minHeight: '100vh', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', gap: '4rem', alignItems: 'center' }}>
         <FadeIn style={{ textAlign: 'left' }}>
-          <div className="badge"><Box size={14} /> Solubloc Industrial / Premium</div>
+          <div className="badge"><Box size={14} /> Solubloc</div>
           <h1 style={{ fontSize: 'clamp(3rem, 8vw, 5.5rem)', marginBottom: '1.5rem', lineHeight: 0.9 }}>
             Infraestrutura <br />
             <span style={{ color: 'var(--accent)' }}>Inteligente.</span>
@@ -67,7 +67,7 @@ function App() {
               Baixar Catálogo PDF <FileText size={18} />
             </a>
             <a href="#portoalegre" className="glass-card" style={{ padding: '1rem 2rem', borderRadius: '16px', textDecoration: 'none', fontWeight: '700' }}>
-              Ver Case Real
+              Ver Caso Real
             </a>
           </div>
         </FadeIn>
@@ -137,7 +137,7 @@ function App() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.5fr', gap: '6rem', alignItems: 'center' }}>
           <FadeIn>
             <div className="badge"><Settings size={14} /> Autonomia Total</div>
-            <h2 style={{ fontSize: '3.5rem', marginBottom: '2rem' }}>Produção On-Site: <br />Logística Inteligente.</h2>
+            <h2 style={{ fontSize: '3.5rem', marginBottom: '2rem' }}>Produção InLoco: <br />Logística Inteligente.</h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', marginBottom: '3rem' }}>
               O modelo Solubloc permite a fabricação dos blocos diretamente no canteiro de obras. Eliminamos o custo do frete de peças pesadas.
             </p>
@@ -189,7 +189,7 @@ function App() {
         <div style={{ background: '#12151c', padding: '6rem', borderRadius: '48px', overflow: 'hidden' }}>
           <FadeIn style={{ marginBottom: '5rem' }}>
             <div className="badge" style={{ background: 'rgba(239, 68, 68, 0.1)', color: '#ef4444', border: '1px solid rgba(239, 68, 68, 0.2)' }}>
-              <AlertTriangle size={14} /> Case de Emergência
+              <AlertTriangle size={14} /> Caso Emergêncial
             </div>
             <h2 style={{ fontSize: '3.5rem', marginBottom: '1.5rem' }}>Porto Alegre: Contenção de Encostas.</h2>
             <p style={{ color: 'var(--text-muted)', maxWidth: '800px', fontSize: '1.2rem' }}>
@@ -222,7 +222,7 @@ function App() {
 
         <div className="grid-3">
           {[
-            { img: "cabeceiradeponte.png", title: "Pontes & Viadutos", icon: <Landmark size={20} /> },
+            { img: "cabeceiradeponte.png", title: "Pontes e Viadutos", icon: <Landmark size={20} /> },
             { img: "contecao_maritima_rios.png", title: "Contenção Marítima", icon: <Anchor size={20} /> },
             { img: "encostas.png", title: "Muros de Arrimo", icon: <Mountain size={20} /> }
           ].map((item, i) => (
@@ -251,7 +251,7 @@ function App() {
           <h2 style={{ fontSize: '4.5rem', marginBottom: '2rem' }}>Eleve sua Infraestrutura.</h2>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem' }}>
             <a href="https://wa.me/seunumerowhatsapp" className="btn-premium">
-              Falar com Engenheiro <ArrowRight />
+              Falar com vendedor <ArrowRight />
             </a>
             <a href={PDF_URL} target="_blank" rel="noopener noreferrer" className="glass-card" style={{ padding: '1.3rem 3rem', borderRadius: '16px', textDecoration: 'none', fontWeight: '700', border: '1px solid var(--border)' }}>
               Catálogo Completo PDF
