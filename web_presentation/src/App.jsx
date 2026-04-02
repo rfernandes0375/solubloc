@@ -222,9 +222,9 @@ function App() {
 
         <div className="grid-3">
           {[
-            { img: "/cabeceiradeponte.png", title: "Pontes & Viadutos", icon: <Landmark size={20} /> },
-            { img: "/contecao_maritima_rios.png", title: "Contenção Marítima", icon: <Anchor size={20} /> },
-            { img: "/encostas.png", title: "Muros de Arrimo", icon: <Mountain size={20} /> }
+            { img: "cabeceiradeponte.png", title: "Pontes & Viadutos", icon: <Landmark size={20} /> },
+            { img: "contecao_maritima_rios.png", title: "Contenção Marítima", icon: <Anchor size={20} /> },
+            { img: "encostas.png", title: "Muros de Arrimo", icon: <Mountain size={20} /> }
           ].map((item, i) => (
             <FadeIn key={i} className="glass-card" style={{ padding: '0', overflow: 'hidden' }} delay={i * 0.1}>
               <div style={{ height: '300px', overflow: 'hidden' }}>
