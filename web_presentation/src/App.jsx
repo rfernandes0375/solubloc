@@ -137,7 +137,7 @@ function App() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.5fr', gap: '6rem', alignItems: 'center' }}>
           <FadeIn>
             <div className="badge"><Settings size={14} /> Autonomia Total</div>
-            <h2 style={{ fontSize: '3.5rem', marginBottom: '2rem' }}>Produção InLoco: <br />Logística Inteligente.</h2>
+            <h2 style={{ fontSize: '3.5rem', marginBottom: '2rem' }}>Produção In loco: <br />Logística Inteligente.</h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '1.2rem', marginBottom: '3rem' }}>
               O modelo Solubloc permite a fabricação dos blocos diretamente no canteiro de obras. Eliminamos o custo do frete de peças pesadas.
             </p>
