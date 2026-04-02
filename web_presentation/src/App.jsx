@@ -37,7 +37,7 @@ function App() {
           justifyContent: 'space-between',
           alignItems: 'center'
         }}>
-          <img src="/logo_solubloc.png" alt="Solubloc Logo" style={{ height: '35px' }} />
+          <img src="logo_solubloc.png" alt="Solubloc Logo" style={{ height: '35px' }} />
           <div style={{ display: 'flex', gap: '3rem', fontSize: '0.9rem', fontWeight: '600' }}>
             <a href="#solucao" style={{ color: 'inherit', textDecoration: 'none', opacity: 0.7 }}>A Solução</a>
             <a href="#producao" style={{ color: 'inherit', textDecoration: 'none', opacity: 0.7 }}>Produção</a>
@@ -74,7 +74,7 @@ function App() {
         <FadeIn delay={0.2}>
           <div className="img-container" style={{ border: 'none', boxShadow: 'none' }}>
             <img
-              src="/solubloc_hero_premium_v2_1775125433051.png"
+              src="solubloc_hero_premium_v2_1775125433051.png"
               alt="Bloco Solubloc Render"
               style={{ width: '100%', filter: 'drop-shadow(0 0 60px rgba(255,140,0,0.1))' }}
             />
@@ -95,7 +95,7 @@ function App() {
           {/* SOLUBLOC FIRST */}
           <FadeIn className="glass-card" style={{ padding: '3rem', border: '1px solid var(--accent)' }}>
             <div style={{ height: '350px', overflow: 'hidden', borderRadius: '16px', marginBottom: '2.5rem' }}>
-              <img src="/solubloc.png" alt="Solubloc" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src="solubloc.png" alt="Solubloc" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
             <div style={{ color: 'var(--text)' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
@@ -114,7 +114,7 @@ function App() {
           {/* GABIÃO SECOND */}
           <FadeIn delay={0.2} className="glass-card" style={{ padding: '3rem', opacity: 0.8 }}>
             <div style={{ height: '350px', overflow: 'hidden', borderRadius: '16px', marginBottom: '2.5rem' }}>
-              <img src="/gabiao.png" alt="Gabião" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+              <img src="gabiao.png" alt="Gabião" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
             </div>
             <div style={{ color: 'var(--text-muted)' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
@@ -144,10 +144,10 @@ function App() {
           </FadeIn>
           <div className="grid" style={{ display: 'flex', gap: '2rem', alignItems: 'flex-start', maxWidth: '600px', marginLeft: 'auto' }}>
             <FadeIn delay={0.1} className="img-container" style={{ height: '300px', flex: 1, marginTop: '-20px' }}>
-              <img src="/forma1.jpg" alt="Forma 1" style={{ height: '100%', objectFit: 'cover' }} />
+              <img src="forma1.jpg" alt="Forma 1" style={{ height: '100%', objectFit: 'cover' }} />
             </FadeIn>
             <FadeIn delay={0.2} className="img-container" style={{ height: '300px', flex: 1, marginTop: '40px' }}>
-              <img src="/forma2.jpg" alt="Forma 2" style={{ height: '100%', objectFit: 'cover' }} />
+              <img src="forma2.jpg" alt="Forma 2" style={{ height: '100%', objectFit: 'cover' }} />
             </FadeIn>
           </div>
         </div>
@@ -157,7 +157,7 @@ function App() {
       <section id="tecnica" className="container">
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1.2fr', gap: '6rem', alignItems: 'center' }}>
           <FadeIn delay={0.2} className="img-container" style={{ height: '600px', borderRadius: '32px' }}>
-            <img src="/engenharia.png" alt="Engenharia Técnica" style={{ height: '100%', objectFit: 'cover' }} />
+            <img src="engenharia.png" alt="Engenharia Técnica" style={{ height: '100%', objectFit: 'cover' }} />
           </FadeIn>
           <FadeIn>
             <div className="badge">Engenharia v4</div>
@@ -199,14 +199,14 @@ function App() {
 
           <div className="grid-3" style={{ gridTemplateColumns: '1.5fr 1fr', gap: '2rem' }}>
             <FadeIn className="img-container" style={{ height: '500px' }}>
-              <img src="/prefeirutadeportoalegre1.jpg" alt="Porto Alegre" style={{ height: '100%', objectFit: 'cover' }} />
+              <img src="prefeirutadeportoalegre1.jpg" alt="Porto Alegre" style={{ height: '100%', objectFit: 'cover' }} />
             </FadeIn>
             <div style={{ display: 'grid', gap: '2rem' }}>
               <FadeIn delay={0.1} className="img-container" style={{ height: '240px' }}>
-                <img src="/prefeirutadeportoalegre2.jpg" alt="Porto Alegre" style={{ height: '100%', objectFit: 'cover' }} />
+                <img src="prefeirutadeportoalegre2.jpg" alt="Porto Alegre" style={{ height: '100%', objectFit: 'cover' }} />
               </FadeIn>
               <FadeIn delay={0.2} className="img-container" style={{ height: '240px' }}>
-                <img src="/prefeirutadeportoalegre3.jpg" alt="Porto Alegre" style={{ height: '100%', objectFit: 'cover' }} />
+                <img src="prefeirutadeportoalegre3.jpg" alt="Porto Alegre" style={{ height: '100%', objectFit: 'cover' }} />
               </FadeIn>
             </div>
           </div>
@@ -261,7 +261,7 @@ function App() {
       </section>
 
       <footer className="container" style={{ paddingBottom: '60px', opacity: 0.5 }}>
-        <img src="/logo_solubloc.png" alt="Solubloc" style={{ height: '20px', grayscale: '100%', marginBottom: '1rem' }} />
+        <img src="logo_solubloc.png" alt="Solubloc" style={{ height: '20px', grayscale: '100%', marginBottom: '1rem' }} />
         <p>&copy; 2026 Solubloc Industrial. Todos os direitos reservados.</p>
       </footer>
     </div>
