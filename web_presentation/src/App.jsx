@@ -73,8 +73,8 @@ function App() {
         <FadeIn delay={0.2}>
           <div className="img-container" style={{ border: 'none', boxShadow: 'none' }}>
             <img
-              src="solubloc_hero_premium_v2_1775125433051.png"
-              alt="Bloco Solubloc Render"
+              src="bloco_dimensoes.png"
+              alt="Bloco Solubloc com Dimensões"
               style={{ width: '100%', filter: 'drop-shadow(0 0 60px rgba(255,140,0,0.1))' }}
             />
           </div>
