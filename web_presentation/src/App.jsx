@@ -42,7 +42,7 @@ function App() {
             <a href="#solucao" style={{ color: 'inherit', textDecoration: 'none', opacity: 0.7 }}>A Solução</a>
             <a href="#producao" style={{ color: 'inherit', textDecoration: 'none', opacity: 0.7 }}>Produção</a>
             <a href="#versatilidade" style={{ color: 'inherit', textDecoration: 'none', opacity: 0.7 }}>Versatilidade</a>
-            <a href="#casos" style={{ color: 'inherit', textDecoration: 'none', opacity: 0.7 }}>Casos</a>
+            <a href="#portoalegre" style={{ color: 'inherit', textDecoration: 'none', opacity: 0.7 }}>Casos</a>
           </div>
           <a href="https://wa.me/5562981183722?text=Olá, quero saber mais sobre a Solubloc!" className="btn-premium" style={{ padding: '0.7rem 1.8rem', fontSize: '0.9rem' }}>
             WhatsApp <MessageCircle size={18} />
